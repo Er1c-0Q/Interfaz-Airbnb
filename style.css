@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family:;/*sans-serif*/
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*background: linear-gradient(#cb232c, #c31d61);*/
+}
+
+body{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)),
+        url(img/imgfondo.jpg);
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        background-position: center center;
+       /* min-height: 70vh;*/
+}
+/*
+form #fprin{
+    display: flex;
+    flex-direction: column;
+    /*background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1));*/
+    /*background: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px 10px;
+}*/
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*background-image: linear-gradient(
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.1));*/
+    background: #ffffffa8;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+    border-radius: 10px 10px;
+    opacity: 5;
+    /*filter: blur(5px);*/
+}
+
+form .title{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+form label{
+    margin-bottom: 35px;
+}
+
+form label .fa-solid{
+    font-size: 20px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+form label input{
+    outline: none;
+    border: none;
+    border-radius: 2px 2px;
+    color: #000000;
+    border-bottom: solid rgba(0, 0, 255, 0.586) 1px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    font-family: initial;
+    color: #5a5a5a60;
+    /*color: rgba(50, 47, 47, 0.762);*/
+}
+
+form .link{
+    color: #252525;
+    margin-bottom: 20px;
+}
+
+form button{
+    border-radius: 5px;/*#c0bbbb*/
+    /*border: none;*/
+    background-color:#ffffff75 ;
+    padding: 10px 30px; /* Ajusta el relleno para un mejor tamaño visual */
+    cursor: pointer;
+    font-size: 15px;
+    font-family:initial;
+   /* border-color: rgba(0, 0, 255, 0.586);*/
+    border: 1px solid rgba(0, 0, 255, 0.586);
+}
