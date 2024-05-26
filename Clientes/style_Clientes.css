@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-family:;/*sans-serif*/
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins a todos los elementos */
 }
 
 body{
@@ -16,33 +16,40 @@ body{
 }
 
 body{
-    background-image: linear-gradient(
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.2)),
-        url(/img/Britishr.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    background-color: #000000;
+    /* min-height: 70vh;*/
+}
 
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        background-position: center center;
-       /* min-height: 70vh;*/
+.muro {
+    width: 100px; /* Ancho del muro */
+}
+.contenido {
+    flex: 1;
+    padding: 20px;
+    /*background-color: #000000; /* Color de fondo del contenido */
+    background: linear-gradient(to right,#dd7317,#c36416,#dd7317);
+    display: flex;
+    justify-content: center; /* Centrar el formulario horizontalmente */
+    align-items: center; /* Centrar el formulario verticalmente */
 }
 
 form{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /*background-image: linear-gradient(
-        rgba(0,0,0,0.1),
-        rgba(0,0,0,0.1));*/
-    background: #ffffffcd; /*#ffffffa8*/
+    background: #ffffff; /*#ffffffa8, #ffffffcd*/
     text-align: center;
     padding: 20px 25px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
     border-radius: 10px 10px;
     opacity: 5;
+    font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins al formulario */
     /*filter: blur(5px);*/
 }
 
@@ -55,6 +62,7 @@ form .title{
 
 form h4{
     text-align: left;
+    font-size: 12px;
 }
 
 form .p1, form .p2 {
@@ -71,15 +79,14 @@ form label{
     flex-direction: column;*/
 }
 
-
 form label input{
     outline: none;
-    border: none;
+    margin: 1px;
     border-radius: 2px 2px;
     color: #000000;
-    border-bottom: solid rgba(0, 0, 255, 0.586) 1px;
+    border-bottom: solid rgba(0, 0, 255, 0.586);
     padding: 0 5px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 form button{
@@ -89,7 +96,6 @@ form button{
     padding: 10px 30px; /* Ajusta el relleno para un mejor tamaño visual */
     cursor: pointer;
     font-size: 15px;
-    font-family:initial;
-   /* border-color: rgba(0, 0, 255, 0.586);*/
-    border: 1px solid rgba(0, 0, 255, 0.586);
+    font-weight: 600;
+    border: 2px solid rgba(0, 0, 0, 0.586);
 }
