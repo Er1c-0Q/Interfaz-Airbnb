@@ -12,4 +12,19 @@ const config = {
     }
 };
 
-module.exports = config;
+async function connectDB()
+{
+    try
+    {
+        const pool = await sql.connect(config);
+        console.log("conectado a db");
+        return pool;
+    }
+    catch (r)
+    {
+        console.error("error en la conexión con la base de datos", r);
+        throw r;
+    }
+}
+
+module.exports = connectDB;
