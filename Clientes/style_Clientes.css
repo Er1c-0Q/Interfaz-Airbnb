@@ -24,6 +24,10 @@ body{
     background-position: center center;
     background-color: #000000;
     /* min-height: 70vh;*/
+    background-image: linear-gradient(
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)),
+        url(/img/Britishr.jpg);
 }
 
 .muro {
@@ -33,7 +37,8 @@ body{
     flex: 1;
     padding: 20px;
     /*background-color: #000000; /* Color de fondo del contenido */
-    background: linear-gradient(to right,#dd7317,#c36416,#dd7317);
+    /*background: linear-gradient(to right,#dd7317,#c36416,#dd7317);*/
+
     display: flex;
     justify-content: center; /* Centrar el formulario horizontalmente */
     align-items: center; /* Centrar el formulario verticalmente */
@@ -51,6 +56,7 @@ form{
     opacity: 5;
     font-family: 'Poppins', sans-serif; /* Aplicar la fuente Poppins al formulario */
     /*filter: blur(5px);*/
+    margin: 20px;
 }
 
 form .title{
@@ -91,11 +97,42 @@ form label input{
 
 form button{
     border-radius: 5px;/*#c0bbbb*/
-    /*border: none;*/
     background-color:#ffffff ;
-    padding: 10px 30px; /* Ajusta el relleno para un mejor tamaño visual */
+    padding: 10px 20px; /* Ajusta el relleno para un mejor tamaño visual */
     cursor: pointer;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 600;
     border: 2px solid rgba(0, 0, 0, 0.586);
+    margin: 10px;
+    /*display: grid;
+    grid-template-columns: repeat(2,1fr);*/
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 8px;
+    text-align: center;
+    padding: 15px 35;
+    margin: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button-container { /*Alinea los botones*/
+    display: flex;
+    gap: 10px;
+
 }

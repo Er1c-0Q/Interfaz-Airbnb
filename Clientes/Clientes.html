@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 <body>
     <div class="muro"></div>
     <div class="contenido">
-        <form action="">
+        <form id="clienteForm">
             <h1 class="title">Registro de Cliente</h1>
             <div class="p1">
                 <label>
@@ -67,8 +67,39 @@
                     <input type="text" id="idcontrato">
                 </label>
             </div>
-            <button id="button">Registrar</button>
+            <div class="button-container">
+                <button type="button" id="button">Registrar</button>
+                <button type="button" id="consultButton">Consultar</button>
+            </div>
         </form>
+
+            <div id="tableContainer" style="display: none;">
+                <!-- Tabla para mostrar los datos -->
+                <form id="form2">
+                    <table id="dataGridView">
+                        <thead>
+                            <tr>
+                                <th>ID Cliente</th>
+                                <th>Nombre</th>
+                                <th>Apellido Paterno</th>
+                                <th>Apellido Materno</th>
+                                <th>Teléfono</th>
+                                <th>Correo</th>
+                                <th>Ciudad</th>
+                                <th>Colonia</th>
+                                <th>Calle</th>
+                                <th>No. Calle</th>
+                                <th>Código Postal</th>
+                                <th>ID Contrato</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Las filas de datos se agregarán aquí -->
+                        </tbody>
+                    </table>
+                <button type="button" id="backButton">Regresar</button>                
+            </form>
+        </div>
     </div>
     <div class="muro"></div>
 
