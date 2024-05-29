@@ -1,0 +1,271 @@
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.exe.config
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.exe
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Common.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Domain.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\DataAccess.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Common.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Domain.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\DataAccess.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.exe
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.LoginForm.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.MainForm.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormRecoverPassword.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\CircularProgressBar.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\WinFormAnimation.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\bin\Debug\CircularProgressBar.xml
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormCalendar.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormHistory.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormPacients.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormReports.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUserProfile.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUsers.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUserMaintenance.resources
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.exe.config
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.exe
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Presentation.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\CircularProgressBar.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Common.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Domain.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\WinFormAnimation.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\DataAccess.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Common.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\Domain.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\CircularProgressBar.xml
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\bin\Debug\DataAccess.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormCalendar.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormHistory.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormPacients.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormRecoverPassword.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormReports.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUserMaintenance.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUserProfile.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormUsers.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.LoginForm.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.MainForm.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.exe
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Presentation\obj\Debug\Presentation.pdb
+C:\compania aerea\Presentation\bin\Debug\Presentation.exe.config
+C:\compania aerea\Presentation\bin\Debug\Presentation.exe
+C:\compania aerea\Presentation\bin\Debug\Presentation.pdb
+C:\compania aerea\Presentation\bin\Debug\CircularProgressBar.dll
+C:\compania aerea\Presentation\bin\Debug\Common.dll
+C:\compania aerea\Presentation\bin\Debug\Domain.dll
+C:\compania aerea\Presentation\bin\Debug\WinFormAnimation.dll
+C:\compania aerea\Presentation\bin\Debug\DataAccess.dll
+C:\compania aerea\Presentation\bin\Debug\Common.pdb
+C:\compania aerea\Presentation\bin\Debug\Domain.pdb
+C:\compania aerea\Presentation\bin\Debug\CircularProgressBar.xml
+C:\compania aerea\Presentation\bin\Debug\DataAccess.pdb
+C:\compania aerea\Presentation\bin\Debug\Interop.WMPLib.dll
+C:\compania aerea\Presentation\bin\Debug\AxInterop.WMPLib.dll
+C:\compania aerea\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+C:\compania aerea\Presentation\obj\Debug\Interop.WMPLib.dll
+C:\compania aerea\Presentation\obj\Debug\AxInterop.WMPLib.dll
+C:\compania aerea\Presentation\obj\Debug\Presentation.csproj.ResolveComReference.cache
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormPacients.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormRecoverPassword.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUserMaintenance.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUserProfile.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUsers.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.LoginForm.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.MainForm.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\compania aerea\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\compania aerea\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+C:\compania aerea\Presentation\obj\Debug\Presentation.exe
+C:\compania aerea\Presentation\obj\Debug\Presentation.pdb
+C:\compania aerea\Presentation\obj\Debug\Presentation.BaseForms.BaseFixedForm.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.agregapiloto.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.editar.editarpiloto.resources
+C:\compania aerea\Presentation\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\compania aerea\Presentation\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\compania aerea\Presentation\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\compania aerea\Presentation\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\compania aerea\Presentation\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\compania aerea\Presentation\bin\Debug\EnvDTE.dll
+C:\compania aerea\Presentation\bin\Debug\stdole.dll
+C:\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\compania aerea\Presentation\obj\Debug\Presentation.reportes.reportepilotos.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.aviones.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregaravion.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.editar.editaravion.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.tripulacion.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregartripul.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.editar.editartripul.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.Vuelos.resources
+C:\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregarvuelo.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Interop.WMPLib.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.ResolveComReference.cache
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.exe
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.pdb
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Presentation.exe
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Presentation.pdb
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\CircularProgressBar.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Common.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Domain.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\WinFormAnimation.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\DataAccess.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\EnvDTE.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\stdole.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Common.pdb
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Domain.pdb
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\CircularProgressBar.xml
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\DataAccess.pdb
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\Interop.WMPLib.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.BaseForms.BaseFixedForm.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.agregapiloto.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregaravion.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregartripul.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.capturas.agregarvuelo.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.tripulacion.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.aviones.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormPacients.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormRecoverPassword.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.Vuelos.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUserMaintenance.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUserProfile.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormUsers.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.ChildForms.FormVerifyUser.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.editar.editaravion.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.editar.editarpiloto.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.editar.editartripul.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.LoginForm.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.MainForm.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.reportes.reportepilotos.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.WelcomeForm.resources
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\compania aerea\compania aerea\Presentation\obj\Debug\Presentation.csproj.CopyComplete

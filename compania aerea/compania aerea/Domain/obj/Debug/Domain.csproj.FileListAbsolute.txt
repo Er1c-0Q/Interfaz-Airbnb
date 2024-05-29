@@ -1,0 +1,34 @@
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\Domain.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\Domain.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\Common.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\DataAccess.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\Common.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\bin\Debug\DataAccess.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\Domain.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\Domain.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\Common.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\DataAccess.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\Common.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\bin\Debug\DataAccess.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Domain\obj\Debug\Domain.pdb
+C:\compania aerea\Domain\bin\Debug\Domain.dll
+C:\compania aerea\Domain\bin\Debug\Domain.pdb
+C:\compania aerea\Domain\bin\Debug\Common.dll
+C:\compania aerea\Domain\bin\Debug\DataAccess.dll
+C:\compania aerea\Domain\bin\Debug\Common.pdb
+C:\compania aerea\Domain\bin\Debug\DataAccess.pdb
+C:\compania aerea\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\compania aerea\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\compania aerea\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\compania aerea\Domain\obj\Debug\Domain.dll
+C:\compania aerea\Domain\obj\Debug\Domain.pdb
+C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll

@@ -95,17 +95,16 @@ form label input{
     font-size: 15px;
 }
 
-form button{
+form button {
     border-radius: 5px;/*#c0bbbb*/
     background-color:#ffffff ;
     padding: 10px 20px; /* Ajusta el relleno para un mejor tamaño visual */
+    width: 100px;
     cursor: pointer;
     font-size: 10px;
     font-weight: 600;
     border: 2px solid rgba(0, 0, 0, 0.586);
     margin: 10px;
-    /*display: grid;
-    grid-template-columns: repeat(2,1fr);*/
 }
 
 table {

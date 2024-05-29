@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D7AA32B-890E-4DCD-B6D3-0D5A8FDF1B6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentation</RootNamespace>
+    <AssemblyName>Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono appp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="capturas\agregapiloto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturas\agregapiloto.Designer.cs">
+      <DependentUpon>agregapiloto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForms\BaseFixedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForms\BaseMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturas\agregaravion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturas\agregaravion.Designer.cs">
+      <DependentUpon>agregaravion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capturas\agregartripul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturas\agregartripul.Designer.cs">
+      <DependentUpon>agregartripul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capturas\agregarvuelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturas\agregarvuelo.Designer.cs">
+      <DependentUpon>agregarvuelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\tripulacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\tripulacion.Designer.cs">
+      <DependentUpon>tripulacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\aviones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\aviones.Designer.cs">
+      <DependentUpon>aviones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\pilotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\pilotos.Designer.cs">
+      <DependentUpon>pilotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormRecoverPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormRecoverPassword.designer.cs">
+      <DependentUpon>FormRecoverPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\Vuelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\Vuelos.Designer.cs">
+      <DependentUpon>Vuelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormUserMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormUserMaintenance.Designer.cs">
+      <DependentUpon>FormUserMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormUserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormUserProfile.Designer.cs">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormUsers.Designer.cs">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForms\FormVerifyUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForms\FormVerifyUser.Designer.cs">
+      <DependentUpon>FormVerifyUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetpilotos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetpilotos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="editar\editaravion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar\editaravion.Designer.cs">
+      <DependentUpon>editaravion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editar\editarpiloto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar\editarpiloto.Designer.cs">
+      <DependentUpon>editarpiloto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editar\editartripul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar\editartripul.Designer.cs">
+      <DependentUpon>editartripul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editar\editarvuelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar\editarvuelo.Designer.cs">
+      <DependentUpon>editarvuelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataValidation.cs" />
+    <Compile Include="Helpers\DragControl.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="reportes\reportepilotos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportes\reportepilotos.Designer.cs">
+      <DependentUpon>reportepilotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Utils\ExceptionManager.cs" />
+    <Compile Include="Utils\ItemConverter.cs" />
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseForms\BaseFixedForm.resx">
+      <DependentUpon>BaseFixedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capturas\agregapiloto.resx">
+      <DependentUpon>agregapiloto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capturas\agregaravion.resx">
+      <DependentUpon>agregaravion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capturas\agregartripul.resx">
+      <DependentUpon>agregartripul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capturas\agregarvuelo.resx">
+      <DependentUpon>agregarvuelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\tripulacion.resx">
+      <DependentUpon>tripulacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\aviones.resx">
+      <DependentUpon>aviones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\pilotos.resx">
+      <DependentUpon>pilotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormRecoverPassword.resx">
+      <DependentUpon>FormRecoverPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\Vuelos.resx">
+      <DependentUpon>Vuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormUserMaintenance.resx">
+      <DependentUpon>FormUserMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormUserProfile.resx">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormUsers.resx">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForms\FormVerifyUser.resx">
+      <DependentUpon>FormVerifyUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar\editaravion.resx">
+      <DependentUpon>editaravion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar\editarpiloto.resx">
+      <DependentUpon>editarpiloto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar\editartripul.resx">
+      <DependentUpon>editartripul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\reportepilotos.resx">
+      <DependentUpon>reportepilotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSetpilotos.xsc">
+      <DependentUpon>DataSetpilotos.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetpilotos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetpilotos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetpilotos.xss">
+      <DependentUpon>DataSetpilotos.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{1be695c0-a1b3-48dc-a187-d1e4ff848c1b}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{c58fcdaa-3813-49bd-8811-83a07f46249e}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono appp.ico" />
+    <None Include="Resources\imgfondo.jpg" />
+    <None Include="Resources\busqueda-de-lupa.png" />
+    <None Include="Resources\advertencia.png" />
+    <None Include="Resources\agregar-usuario.png" />
+    <None Include="Resources\personas.png" />
+    <None Include="Resources\bloquear.png" />
+    <None Include="Resources\perfilorange.png" />
+    <None Include="Resources\aire-bnb.png" />
+    <None Include="Resources\agregar-usuario1.png" />
+    <None Include="Resources\bloquear1.png" />
+    <None Include="Resources\agregar-usuariog.png" />
+    <None Include="Resources\Degradado.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnRestore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMaximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMinimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultUserProfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

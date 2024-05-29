@@ -1,0 +1,21 @@
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Common\bin\Debug\Common.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Common\bin\Debug\Common.pdb
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.dll
+D:\RJ Code Advance\Store\CS- Login Project SQL -IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\bin\Debug\Common.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\bin\Debug\Common.pdb
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.dll
+C:\CS-Login_Project-SQL-IL\FullLogin Capas CS SQL\Common\obj\Debug\Common.pdb
+C:\compania aerea\Common\bin\Debug\Common.dll
+C:\compania aerea\Common\bin\Debug\Common.pdb
+C:\compania aerea\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\compania aerea\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\compania aerea\Common\obj\Debug\Common.dll
+C:\compania aerea\Common\obj\Debug\Common.pdb
+C:\compania aerea\Common\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\compania aerea\Common\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\compania aerea\Common\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\compania aerea\Common\obj\Debug\Common.csproj.CopyComplete

@@ -9,19 +9,6 @@
 <body>
     <header class="header">
         <div class="menu container">
-            <div class="barracount left">
-                <input type="checkbox" id="menu-toggle-left" />
-                <label for="menu-toggle-left" class="menu-icon">
-                    <img src="/img/perfilorange.png" class="menu-icono" alt="Perfil">
-                </label>
-                <nav class="navbar">
-                    <ul>
-                        <li><button class="Modificar">Modificar Datos</button></li>
-                        <li><button class="Eliminar">Eliminar Datos</button></li>
-                        <li><button class="Cerrar">Cerrar Sesion</button></li>
-                    </ul>
-                </nav>
-            </div>      
             <div class="barracount right">
                 <input type="checkbox" id="menu-toggle-right" />
                 <label for="menu-toggle-right" class="menu-icon">
@@ -29,8 +16,16 @@
                 </label>
                 <nav class="navbar">
                     <ul>
-                        <li><button id="Registrarse" class="Registrarse">Registrarse</button></li>
-                        <li><button id="Iniciar" class="Iniciar">Iniciar Sesion</button></li>
+                        <ul class="menu-default">
+                            <li><button id="Registrarse" class="Registrarse">Registrarse</button></li>
+                            <li><button id="Iniciar" class="Iniciar">Iniciar Sesion</button></li>    
+                        </ul>
+
+                        <ul class="menu-login" style="display: none;">
+                            <li><button class="Modificar">Modificar Datos</button></li>
+                            <li><button class="Eliminar">Eliminar Datos</button></li>
+                            <li><button id="Cerrar" class="Cerrar">Cerrar Sesion</button></li>
+                        </ul>
                     </ul>
                 </nav>
             </div>  
@@ -77,7 +72,6 @@
                     <a href="#" class="agregar-carrito btn-2" data-id="8">Alquilar alojamiento</a>
                 </div>
             </div>
-            <!-- Agrega más productos según sea necesario -->
         </div>
     </section>
 

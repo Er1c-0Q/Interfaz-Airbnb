@@ -2,10 +2,15 @@
     // Evitar que el formulario se envíe
     event.preventDefault();});*/
 
-document.getElementById('button').addEventListener('click', function(event) {
+document.getElementById('Cliente').addEventListener('click', function(event) {
     event.preventDefault(); // Evita que el formulario se envíe si es un botón de tipo submit
     window.location.href = "/Menu/Menu.html";
 });
+document.getElementById('Socio').addEventListener('click', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe si es un botón de tipo submit
+    window.location.href = "/Menu/Menu.html";
+});
+
 
  // Obtener los valores de los campos del formulario
  const idCliente = document.getElementById('idcliente').value;

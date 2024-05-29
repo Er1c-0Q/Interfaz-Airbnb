@@ -46,10 +46,6 @@ body {
     margin-top: 20px;
 }
 
-.barracount.left {
-    left: 0;
-}
-
 .barracount.right {
     right: 0;
 }
@@ -101,7 +97,6 @@ body {
 
 }
 
-#menu-toggle-left:checked + .menu-icon + .navbar,
 #menu-toggle-right:checked + .menu-icon + .navbar {
     display: flex;
 }
