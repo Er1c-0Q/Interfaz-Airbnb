@@ -93,32 +93,9 @@ namespace Presentation
                  * Puedes eliminar las condicionales y mostrar un formulario único*/
 
                 Form mainForm;//Definir el campo para el formulario principal.
+                              
+                mainForm = new ChildForms.FormUserMaintenance();
 
-                if (ActiveUser.Position == Positions.GeneralManager || ActiveUser.Position == Positions.Accountant
-                    || ActiveUser.Position == Positions.AdministrativeAssistant || ActiveUser.Position == Positions.SystemAdministrator)
-                {
-                    //Enviar el modelo de vista del usuario conectado, para mostrar sus datos en el formulario principal. 
-                    mainForm = new MainForm(userModel);
-                }
-                else if (ActiveUser.Position == Positions.HMR)
-                {
-                    mainForm = new ChildForms.FormUsers();
-                }
-                else if (ActiveUser.Position == Positions.Receptionist)
-                {
-                    mainForm = new ChildForms.FormPacients();
-                }
-                else if (ActiveUser.Position == Positions.MarketingGuru)
-                {
-                    mainForm = new ChildForms.Vuelos();
-                }
-                else
-                {
-                    mainForm = null;
-                    MessageBox.Show("Usted no tiene un cargo asignado, no puede iniciar sesión.", "Mensaje",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
                 this.Hide();//Ocultar el formualario login.
                 var welcomeForm = new WelcomeForm(userModel.FullName);//Mostrar el formulario de bienvenida.
                 welcomeForm.ShowDialog();

@@ -40,14 +40,8 @@ namespace DataAccess.DBServices
                     {
                         var userObj = new User //Crear objeto y asignar los datos del resultado.
                         {
-                            Id = (int)reader[0], //Posicion 0
-                            Username = reader[1].ToString(),
-                            FirstName = reader[3].ToString(),
-                            LastName = reader[4].ToString(),
-                            Position = reader[5].ToString(),
-                            //En este caso, establecer el valor si el valor de celda es diferente a DBNull, caso contrario establecer NULL (Esto es importante, ya que se produce Null exception ).
-                            Photo = reader[7] != DBNull.Value ? (byte[])reader[7] : null 
-                            //Por seguridad, no almacenar la contraseña del usuario en el objeto.
+                            Id = (int)reader["id_usuario"],
+                            Username = reader["usuario"].ToString(),
                         };
                         //Asignar los datos del usuario conectado actualmente en la aplicacion.
                         ActiveUser.Id = userObj.Id;                      
@@ -62,7 +56,7 @@ namespace DataAccess.DBServices
         }
         public bool ValidateActiveUser()
         {//Seguridad de la aplicacion, utiliza este metodo para verificar que el usuario conectado sea valido.
-            bool validUser = true;//Obtiene o establece si el usuario conectado es valido (Valor por defecto =falso).
+            bool validUser = false;//Obtiene o establece si el usuario conectado es valido (Valor por defecto =falso).
             string activeUserPass = "";//Obtiene o establece la contraseña del usuario conectado.
             if (string.IsNullOrWhiteSpace(ActiveUser.Username) == false) //Ejecutar este fragmento de codigo siempre en cuando que el nombre usuario NO sea nulo o espacios en blanco.
             {
@@ -111,20 +105,10 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = @"insert into Users 
-	                                        values (@userName,@password, @firstName, @lastName,@position,@email,@photo)";
+                    command.CommandText = @"insert into Usuarios 
+	                                        values (@userName,@password)";
                     command.Parameters.AddWithValue("@userName", user.Username);
                     command.Parameters.AddWithValue("@password", user.Password);
-                    command.Parameters.AddWithValue("@firstName", user.FirstName);
-                    command.Parameters.AddWithValue("@lastName", user.LastName);
-                    command.Parameters.AddWithValue("@position", user.Position);
-                    command.Parameters.AddWithValue("@email", user.Email);
-                    if (user.Photo != null)//Si la propiedad Foto es diferente a nulo, asignar el valor de la propiedad.
-                        command.Parameters.Add(new SqlParameter("@photo", user.Photo) { SqlDbType = SqlDbType.VarBinary });
-                    else //Caso contrario asignar un valor nulo de SQL.  
-                        command.Parameters.Add(new SqlParameter("@photo", DBNull.Value) { SqlDbType = SqlDbType.VarBinary });
-                    //En este caso del campo Foto, es importante especificar explícitamente el tipo de dato de SQL.
-                    //Puedes hacer lo mismo con los otros parámetros, sin embargo es opcional, El tipo de datos será derivará del tipo de dato de su valor.
 
                     command.CommandType = CommandType.Text;
                     result = command.ExecuteNonQuery(); //Ejecutar el comando de texto y asignar el resultado al campo result.
@@ -142,20 +126,11 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = @"update  Users	
-	                                        set userName=@userName,password=@password,firstName=@firstName,lastName= @lastName,position= @position,email=@email, profilePicture=@photo  
-	                                        where id=@id ";
+                    command.CommandText = @"update  Usuarios	
+	                                        set usuario=@userName,contrasenia =@password where id_usuario=@id ";
                     command.Parameters.AddWithValue("@id", user.Id);
                     command.Parameters.AddWithValue("@userName", user.Username);
                     command.Parameters.AddWithValue("@password", user.Password);
-                    command.Parameters.AddWithValue("@firstName", user.FirstName);
-                    command.Parameters.AddWithValue("@lastName", user.LastName);
-                    command.Parameters.AddWithValue("@position", user.Position);
-                    command.Parameters.AddWithValue("@email", user.Email);
-                    if (user.Photo != null)
-                        command.Parameters.Add(new SqlParameter("@photo", user.Photo) { SqlDbType = SqlDbType.VarBinary });
-                    else
-                        command.Parameters.Add(new SqlParameter("@photo", DBNull.Value) { SqlDbType = SqlDbType.VarBinary });
 
                     command.CommandType = CommandType.Text;
                     result = command.ExecuteNonQuery();
@@ -173,7 +148,7 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = @"delete from Users where id=@id ";
+                    command.CommandText = @"delete from Usuarios where id_usuario=@id ";
                     command.Parameters.AddWithValue("@id", id);
                 
                     command.CommandType = CommandType.Text;
@@ -190,7 +165,7 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from Users where id=@id";
+                    command.CommandText = "select *from Usuarios where id_usuario =@id";
                     command.Parameters.AddWithValue("@id", id);
                     command.CommandType = CommandType.Text;
 
@@ -202,11 +177,6 @@ namespace DataAccess.DBServices
                             Id = (int)reader[0],
                             Username = reader[1].ToString(),
                             Password = reader[2].ToString(),
-                            FirstName = reader[3].ToString(),
-                            LastName = reader[4].ToString(),
-                            Position = reader[5].ToString(),
-                            Email = reader[6].ToString(),
-                            Photo = reader[7] != DBNull.Value ? (byte[])reader[7] : null
                         };
                         return userObj; //Retornar resultado (objeto).
                     }
@@ -223,7 +193,7 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from Users where username=@user or email=@user";
+                    command.CommandText = "select *from Usuarios where usuario=@user";
                     command.Parameters.AddWithValue("@user", user);
                     command.CommandType = CommandType.Text;
 
@@ -235,11 +205,6 @@ namespace DataAccess.DBServices
                             Id = (int)reader[0],
                             Username = reader[1].ToString(),
                             Password = reader[2].ToString(),
-                            FirstName = reader[3].ToString(),
-                            LastName = reader[4].ToString(),
-                            Position = reader[5].ToString(),
-                            Email = reader[6].ToString(),
-                            Photo = reader[7] != DBNull.Value ? (byte[])reader[7] : null
                         };
                         return userObj;
                     }
@@ -258,7 +223,7 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from Users ";
+                    command.CommandText = "select * from Usuarios ";
                     command.CommandType = CommandType.Text;
 
                     SqlDataReader reader = command.ExecuteReader();
@@ -271,11 +236,6 @@ namespace DataAccess.DBServices
                                 Id = (int)reader[0],
                                 Username = reader[1].ToString(),
                                 Password = reader[2].ToString(),
-                                FirstName = reader[3].ToString(),
-                                LastName = reader[4].ToString(),
-                                Position = reader[5].ToString(),
-                                Email = reader[6].ToString(),
-                                Photo = reader[7] != DBNull.Value ? (byte[])reader[7] : null
                             };
                             userList.Add(userObj);
                         }
