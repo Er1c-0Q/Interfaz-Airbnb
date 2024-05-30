@@ -73,14 +73,6 @@ namespace Presentation
 
                     break;
 
-                case Positions.AdministrativeAssistant:
-                    btnReports.Enabled = false;
-                    break;
-
-                case Positions.HMR:
-
-                    break;
-
                 case Positions.SystemAdministrator:
 
                     break;

@@ -233,11 +233,6 @@ namespace Domain
                 Id = userModel.Id,
                 Username = userModel.Username,
                 Password = userModel.Password,
-                FirstName = userModel.FirstName,
-                LastName = userModel.LastName,
-                Position = userModel.Position,
-                Email = userModel.Email,
-                Photo = userModel.Photo
             };
             return userEntity;
         }
@@ -250,11 +245,6 @@ namespace Domain
                 Id = userEntity.Id,
                 Username = userEntity.Username,
                 Password = userEntity.Password,
-                FirstName = userEntity.FirstName,
-                LastName = userEntity.LastName,
-                Position = userEntity.Position,
-                Email = userEntity.Email,
-                Photo = userEntity.Photo
             };
             return userModel;
         }
