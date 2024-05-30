@@ -29,7 +29,7 @@ namespace DataAccess.DBServices
                 {
                     command.Connection = connection;//Establecer la conexión.
                     //Establecer el comando de texto.
-                    command.CommandText = "select *from Users where (userName=@username and password=@pass) or (Email=@username and password=@pass)";
+                    command.CommandText = "select *from Usuarios where (usuario=@username and contrasenia=@pass)";
                     //Establecer los parametros.
                     command.Parameters.AddWithValue("@username", username);
                     command.Parameters.AddWithValue("@pass", password);
@@ -45,7 +45,6 @@ namespace DataAccess.DBServices
                             FirstName = reader[3].ToString(),
                             LastName = reader[4].ToString(),
                             Position = reader[5].ToString(),
-                            Email = reader[6].ToString(),
                             //En este caso, establecer el valor si el valor de celda es diferente a DBNull, caso contrario establecer NULL (Esto es importante, ya que se produce Null exception ).
                             Photo = reader[7] != DBNull.Value ? (byte[])reader[7] : null 
                             //Por seguridad, no almacenar la contraseña del usuario en el objeto.
@@ -64,7 +63,7 @@ namespace DataAccess.DBServices
         }
         public bool ValidateActiveUser()
         {//Seguridad de la aplicacion, utiliza este metodo para verificar que el usuario conectado sea valido.
-            bool validUser = false;//Obtiene o establece si el usuario conectado es valido (Valor por defecto =falso).
+            bool validUser = true;//Obtiene o establece si el usuario conectado es valido (Valor por defecto =falso).
             string activeUserPass = "";//Obtiene o establece la contraseña del usuario conectado.
             if (string.IsNullOrWhiteSpace(ActiveUser.Username) == false) //Ejecutar este fragmento de codigo siempre en cuando que el nombre usuario NO sea nulo o espacios en blanco.
             {
@@ -75,7 +74,7 @@ namespace DataAccess.DBServices
                     {
                         command.Connection = connection;
                         //Obtener la contraseña del usuario conectado.
-                        command.CommandText = "select password from Users where id=@id";//Establecer el comando de texto
+                        command.CommandText = "select contrasenia from Usuarios where id_usuario =@id";//Establecer el comando de texto
                         command.Parameters.AddWithValue("@id", ActiveUser.Id);
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
@@ -84,7 +83,7 @@ namespace DataAccess.DBServices
                             command.Parameters.Clear();//Limpiar los parametros para la siguiente consulta.
                         }
                         //Validar usuario conectado.
-                        command.CommandText = "select *from Users where userName=@username or Email=@username and Password=@pass and Id=@id";
+                        command.CommandText = "select *from Usuarios where usuario=@username and contrasenia=@pass and id_usuario=@id";
                         command.Parameters.AddWithValue("@username", ActiveUser.Username);
                         command.Parameters.AddWithValue("@pass", activeUserPass);
                         command.Parameters.AddWithValue("@id", ActiveUser.Id);

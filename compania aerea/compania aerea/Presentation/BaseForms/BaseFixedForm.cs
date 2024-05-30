@@ -64,7 +64,7 @@ namespace Presentation.BaseForms
 
         #region -> Definición de Propiedades
 
-        protected Color TitleBarColor
+        public  Color TitleBarColor
         {
             get { return titleBar.BackColor; }
             set { titleBar.BackColor = value; }

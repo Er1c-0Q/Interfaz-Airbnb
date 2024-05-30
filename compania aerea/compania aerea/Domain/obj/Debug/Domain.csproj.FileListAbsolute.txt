@@ -32,3 +32,17 @@ C:\compania aerea\Domain\obj\Debug\Domain.pdb
 C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.Common.dll
 C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
 C:\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Domain.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Domain.pdb
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Common.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\DataAccess.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\Common.pdb
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\bin\Debug\DataAccess.pdb
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\obj\Debug\Domain.dll
+C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\Domain\obj\Debug\Domain.pdb

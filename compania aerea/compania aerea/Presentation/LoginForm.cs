@@ -74,7 +74,7 @@ namespace Presentation
             //Validar campos
             if (string.IsNullOrWhiteSpace(txtUsername.Text) || txtUsername.Text == usernamePlaceholder)
             {
-                ShowMessage("Ingrese nombre de usuario o correo electrónico");
+                ShowMessage("Ingrese nombre de usuario");
                 return;
             }
             if (string.IsNullOrWhiteSpace(txtPassword.Text) || txtPassword.Text == passwordPlaceholder)
