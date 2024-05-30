@@ -51,7 +51,6 @@ namespace DataAccess.DBServices
                         };
                         //Asignar los datos del usuario conectado actualmente en la aplicacion.
                         ActiveUser.Id = userObj.Id;                      
-                        ActiveUser.Position = userObj.Position;
                         ActiveUser.Username = username;
 
                         return userObj; //Retornar el objeto usuario (Resultado)
