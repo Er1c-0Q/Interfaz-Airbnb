@@ -16,24 +16,15 @@ namespace Common
         /// mediante enumeraciones y el ID de los cargos.
         /// </summary>
 
-        public const string GeneralManager = "gerente general";
-        public const string Accountant = "Contador";
-        public const string MarketingGuru = "Marketing";
-        public const string AdministrativeAssistant = "asistente administrativo";
-        public const string HMR = "recursos humanos";
-        public const string Receptionist = "recepcionista";
-        public const string SystemAdministrator = "Administrador";
+        public const string GeneralManager = "Cliente";
+
+        public const string SystemAdministrator = "Socio";
 
         public static IEnumerable<string> GetPositions()
         {//Método para listar los cargos. Se usa para establece la fuente de datos
             //del ComboBox en el formulario usuario de la capa de interfaz de usuario.
             var positions = new List<string>();
             positions.Add(GeneralManager);
-            positions.Add(Accountant);
-            positions.Add(MarketingGuru);
-            positions.Add(AdministrativeAssistant);
-            positions.Add(HMR);
-            positions.Add(Receptionist);
             positions.Add(SystemAdministrator);
             positions.Sort();
             return positions;

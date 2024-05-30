@@ -22,6 +22,8 @@ namespace Presentation.ChildForms
             ListUsers();
         }
 
+
+
         private void ListUsers()
         {//LLenar la cuadricula de datos con la lista de usuarios.
             userList = userModel.GetAllUsers().ToList();//Obtener todos los usuarios.

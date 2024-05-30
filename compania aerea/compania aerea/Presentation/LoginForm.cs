@@ -94,7 +94,7 @@ namespace Presentation
 
                 Form mainForm;//Definir el campo para el formulario principal.
                               
-                mainForm = new ChildForms.FormUserMaintenance();
+                mainForm = new MainForm();
 
                 this.Hide();//Ocultar el formualario login.
                 var welcomeForm = new WelcomeForm(userModel.FullName);//Mostrar el formulario de bienvenida.

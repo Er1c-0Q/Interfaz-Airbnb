@@ -322,6 +322,10 @@
       <Project>{1be695c0-a1b3-48dc-a187-d1e4ff848c1b}</Project>
       <Name>Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{313ec23c-0aaf-48fa-a906-3f600c81d7f1}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{c58fcdaa-3813-49bd-8811-83a07f46249e}</Project>
       <Name>Domain</Name>

@@ -53,7 +53,7 @@ namespace Presentation
         {
             axWindowsMediaPlayer1.stretchToFit = true;
             axWindowsMediaPlayer1.uiMode = "none";
-            axWindowsMediaPlayer1.URL = @"C:\aerolinea\imagenes\avion.mp4"; // Cambia la ruta según la ubicación de tu archivo de video
+            axWindowsMediaPlayer1.URL = @".\imagenes\avion.mp4"; // Cambia la ruta según la ubicación de tu archivo de video
             axWindowsMediaPlayer1.Ctlcontrols.play();
         }
 
@@ -76,6 +76,11 @@ namespace Presentation
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

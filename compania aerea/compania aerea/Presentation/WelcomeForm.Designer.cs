@@ -83,9 +83,10 @@
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(40, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 17);
+            this.label1.Size = new System.Drawing.Size(160, 17);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Flight Frontier";
+            this.label1.Text = "eric si lees esto matame";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 

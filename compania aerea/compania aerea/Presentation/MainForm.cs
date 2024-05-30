@@ -56,12 +56,8 @@ namespace Presentation
         public void LoadUserData(UserModel userModel)
         {
             //Cargar los datos del usuario conectado en el menú lateral.
-            lblName.Text = userModel.FirstName;
-            lblLastName.Text = userModel.LastName;
-            lblPosition.Text = userModel.Position;
-            if (userModel.Photo != null)
-                pictureBoxPhoto.Image = Utils.ItemConverter.BinaryToImage(userModel.Photo);
-            else pictureBoxPhoto.Image = Properties.Resources.DefaultUserProfile;
+            lblName.Text = userModel.Nombres;
+            lblLastName.Text = userModel.ApellidoP;
         }
 
         private void ManagePermissions()

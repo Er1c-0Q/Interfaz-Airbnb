@@ -8,6 +8,7 @@ using DataAccess.DBServices.Entities;
 using DataAccess.MailServices;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Data.SqlClient;
 
 namespace Domain
 {
@@ -16,14 +17,21 @@ namespace Domain
         #region -> Atributos
 
         private int _id;
-        private string _username;
-        private string _password;
-        private string _firstName;
-        private string _lastName;
-        private string _position;
-        private string _email;
-        private byte[] _photo;
+        private string _usuario;
+        private string _contrasenia;
+        private string _nombres;
+        private string _apellidoP;
+        private string _apellidoM;
+        private string _correo;
+        private string _telefono;
+        private int _cp;
+        private string _calle;
+        private int _numCalle;
+        private string _colonia;
+        private int _ciudadId;
         private UserDao _userDao;
+
+        private ConnectionToSql conexion;
         #endregion
 
         #region -> Constructores
@@ -31,21 +39,28 @@ namespace Domain
         public UserModel()
         {
             _userDao = new UserDao();
+            conexion = new ConnectionToSql();
         }
 
-        public UserModel(int id, string userName, string password, string firstName, string lastName, string position, string email, byte[] photo)
+        public UserModel(int id, string usuario, string contrasenia, string nombres, string apellidoP, string apellidoM, string correo, string telefono, int cp, string calle, int numCalle, string colonia, int ciudadId)
         {
             Id = id;
-            Username = userName;
-            Password = password;
-            FirstName = firstName;
-            LastName = lastName;
-            Position = position;
-            Email = email;
-            Photo = photo;
+            this.usuario = usuario;
+            this.contrasenia = contrasenia;
+            Nombres = nombres;
+            ApellidoP = apellidoP;
+            ApellidoM = apellidoM;
+            Correo = correo;
+            Telefono = telefono;
+            Cp = cp;
+            Calle = calle;
+            NumCalle = numCalle;
+            Colonia = colonia;
+            CiudadId = ciudadId;
 
             _userDao = new UserDao();
         }
+
         #endregion
 
         #region -> Propiedades + Validacíon y Visualización de Datos
@@ -62,10 +77,10 @@ namespace Domain
         [DisplayName("Usuario")]//Nombre a visualizar.
         [Required(ErrorMessage = "El nombre de usuario es requerido.")]//Validaciones
         [StringLength(100, MinimumLength = 5, ErrorMessage = "El nombre de usuario debe contener un mínimo de 5 caracteres.")]
-        public string Username
+        public string usuario
         {
-            get { return _username; }
-            set { _username = value; }
+            get { return _usuario; }
+            set { _usuario = value; }
         }
 
         //Posición 2
@@ -73,34 +88,46 @@ namespace Domain
         [Browsable(false)]//Ocultar visualización (Por ejemplo no mostrar en el datagridview).
         [Required(ErrorMessage = "Por favor ingrese una contraseña.")]//Valicaciones
         [StringLength(100, MinimumLength = 5, ErrorMessage = "La contraseña debe contener un mínimo de 5 caracteres.")]
-        public string Password
+        public string contrasenia
         {
-            get { return _password; }
-            set { _password = value; }
+            get { return _contrasenia; }
+            set { _contrasenia = value; }
         }
 
         //Posición 3
-        [DisplayName("Nombre")]//Nombre a visualizar.
+        [DisplayName("Nombres")]//Nombre a visualizar.
         [Browsable(false)]//Ocultar visualización
         [Required(ErrorMessage = "Por favor ingrese nombre")]
         [RegularExpression("^[a-zA-Z ]+$", ErrorMessage = "El nombre debe ser solo letras")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "El nombre debe contener un mínimo de 3 caracteres.")]
-        public string FirstName
+        public string Nombres
         {
-            get { return _firstName; }
-            set { _firstName = value; }
+            get { return _nombres; }
+            set { _nombres = value; }
         }
 
         //Posición 4
-        [DisplayName("Apellido")]//Nombre a visualizar.
+        [DisplayName("Apellido Paterno")]//Nombre a visualizar.
         [Browsable(false)]//Ocultar visualización
         [Required(ErrorMessage = "Por favor ingrese apellido.")]//Validaciones
         [RegularExpression("^[a-zA-Z ]+$", ErrorMessage = "El apellido debe ser solo letras")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "El apellido debe contener un mínimo de 3 caracteres.")]
-        public string LastName
+        public string ApellidoP
         {
-            get { return _lastName; }
-            set { _lastName = value; }
+            get { return _apellidoP; }
+            set { _apellidoP = value; }
+        }
+
+        //Posición 9
+        [DisplayName("Apellido Materno")]//Nombre a visualizar.
+        [Browsable(false)]//Ocultar visualización
+        [Required(ErrorMessage = "Por favor ingrese apellido.")]//Validaciones
+        [RegularExpression("^[a-zA-Z ]+$", ErrorMessage = "El apellido debe ser solo letras")]
+        [StringLength(100, MinimumLength = 3, ErrorMessage = "El apellido debe contener un mínimo de 3 caracteres.")]
+        public string ApellidoM
+        {
+            get { return _apellidoM; }
+            set { _apellidoM = value; }
         }
 
         //Posición 5
@@ -108,45 +135,72 @@ namespace Domain
         [DisplayName("Nombre completo")]//Nombre a visualizar.
         public string FullName
         {
-            get { return _firstName + ", " + _lastName; }
+            get { return $"{ApellidoP} {ApellidoM} {Nombres}"; }
         }
 
-        //Posición 6
-        [DisplayName("Cargo")]
-        [Required(ErrorMessage = "Por favor ingrese un cargo.")]
-        [StringLength(100, MinimumLength = 8, ErrorMessage = "Last name must contain a minimum of 8 characters.")]
-        public string Position
+        //Posición 11
+        [DisplayName("Correo")]//Nombre a visualizar.
+        public string Correo
         {
-            get { return _position; }
-            set { _position = value; }
+            get { return _correo; }
+            set { _correo = value; }
         }
 
-        //Posición 7
-        [DisplayName("Email")]//Nombre a visualizar.
-        [Required(ErrorMessage = "Por favor ingrese correo electrónico.")]//Validaciones
-        [EmailAddress(ErrorMessage = "Ingrese un correo electrónico válido: example@gmail.com")]
-        public string Email
+        //Posición 12
+        [DisplayName("Teléfono")]//Nombre a visualizar.
+        public string Telefono
         {
-            get { return _email; }
-            set { _email = value; }
+            get { return _telefono; }
+            set { _telefono = value; }
         }
 
-        //Posición 8
-        [DisplayName("Foto")]//Nombre a visualizar.
-        //[Browsable(false)]//Ocultar visualización
-        public byte[] Photo
+        //Posición 13
+        [DisplayName("Código Postal")]//Nombre a visualizar.
+        public int Cp
         {
-            get { return _photo; }
-            set { _photo = value; }
-
+            get { return _cp; }
+            set { _cp = value; }
         }
+
+        //Posición 14
+        [DisplayName("Calle")]//Nombre a visualizar.
+        public string Calle
+        {
+            get { return _calle; }
+            set { _calle = value; }
+        }
+
+        //Posición 15
+        [DisplayName("Número de Calle")]//Nombre a visualizar.
+        public int NumCalle
+        {
+            get { return _numCalle; }
+            set { _numCalle = value; }
+        }
+
+        //Posición 16
+        [DisplayName("Colonia")]//Nombre a visualizar.
+        public string Colonia
+        {
+            get { return _colonia; }
+            set { _colonia = value; }
+        }
+
+        //Posición 17
+        [DisplayName("Ciudad Id")]//Nombre a visualizar.
+        public int CiudadId
+        {
+            get { return _ciudadId; }
+            set { _ciudadId = value; }
+        }
+
         #endregion
 
         #region -> Métodos Públicos
 
-        public UserModel Login(string username, string password)
+        public UserModel Login(string usuario, string contrasenia)
         {//Iniciar sesion.
-            var result = _userDao.Login(username, password);
+            var result = _userDao.Login(usuario, contrasenia);
             if (result != null)
                 return MapUserModel(result);
             else
@@ -191,48 +245,83 @@ namespace Domain
                 return null;
         }
         public IEnumerable<UserModel> GetAllUsers()
-        {//Listar todos los usuarios.
+        {
+            List<UserModel> users = new List<UserModel>();
 
-           
-            var result = _userDao.GetAllUsers();
-            //...
-            //Aqui podría colocar su logica y reglas de negocio si es el caso.
-            //..
-            return MapUserModel(result);
-        }
-        public UserModel RecoverPassword(string requestingUser)
-        {//Método para recupear la contraseña del usuario y enviarlo a su dirección de correo.
-            var result = _userDao.GetUserByUsername(requestingUser);
-            if (result != null)
+            using (var connection = conexion.GetConnection())//Obtener conexion
             {
-                var userModel = MapUserModel(result);
-                var mailService = new EmailService();
-                mailService.Send(
-                    recipient: userModel.Email,
-                    subject: "Solicitud de recuperación de contraseña",
-                    body: "Hola " + userModel.FirstName + ",\nSolicitó recuperar su contraseña.\n" +
-                    "Tu contraseña actual es: " + userModel.Password + "\nSin embargo, le pedimos que cambie" +
-                    "su contraseña inmediatamente una vez ingrese a la aplicacíon");
-                return userModel;
+                string query = "SELECT u.id_usuario, u.usuario, u.contrasenia, s.id_socio, s.apellido_p, s.apellido_m, s.nombres, s.correo, s.telefono, s.cp, s.calle, s.num_calle, s.colonia, s.id_ciudad " +
+                               "FROM Usuarios u " +
+                               "LEFT JOIN Socios s ON u.id_usuario = s.id_usuario " +
+                               "UNION " +
+                               "SELECT u.id_usuario, u.usuario, u.contrasenia, c.id_cliente, c.apellido_p, c.apellido_m, c.nombres, c.correo, c.telefono, c.cp, c.calle, c.num_calle, c.colonia, c.id_ciudad " +
+                               "FROM Usuarios u " +
+                               "LEFT JOIN Clientes c ON u.id_usuario = c.id_usuario";
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    UserData userData = new UserData
+                    {
+                        Id = (int)reader["id_usuario"],
+                        usuario = (string)reader["usuario"],
+                        contrasenia = (string)reader["contrasenia"],
+                        ApellidoP = reader["apellido_p"] == DBNull.Value ? "" : (string)reader["apellido_p"],
+                        ApellidoM = reader["apellido_m"] == DBNull.Value ? "" : (string)reader["apellido_m"],
+                        Nombres = reader["nombres"] == DBNull.Value ? "" : (string)reader["nombres"],
+                        Correo = reader["correo"] == DBNull.Value ? "" : (string)reader["correo"],
+                        Telefono = reader["telefono"] == DBNull.Value ? "" : (string)reader["telefono"],
+                        Cp = reader["cp"] == DBNull.Value ? 0 : (int)reader["cp"],
+                        Calle = reader["calle"] == DBNull.Value ? "" : (string)reader["calle"],
+                        NumCalle = reader["num_calle"] == DBNull.Value ? 0 : (int)reader["num_calle"],
+                        Colonia = reader["colonia"] == DBNull.Value ? "" : (string)reader["colonia"],
+                        CiudadId = reader["id_ciudad"] == DBNull.Value ? 0 : (int)reader["id_ciudad"]
+                    };
+
+                    UserModel userModel = MapUserDataToUserModel(userData);
+                    users.Add(userModel);
+                }
             }
-            else
-                return null;
-            /*Nota: Eso es simplemente un ejemplo para enviar correos electrónicos,
-             * no es buena idea enviar directamente la contraseña del usuario,
-             * en su lugar, es mejor enviar una contraseña temporal.*/
+
+            return users;
         }
         #endregion
 
         #region -> Métodos Privados (Mapear datos)
 
         //Mapear modelo de dominio a modelo de entidad.
+        private UserModel MapUserDataToUserModel(UserData userData)
+        {
+            UserModel userModel = new UserModel
+            {
+                Id = userData.Id,
+                usuario = userData.usuario,
+                contrasenia = userData.contrasenia,
+                ApellidoP = userData.ApellidoP,
+                ApellidoM = userData.ApellidoM,
+                Nombres = userData.Nombres,
+                Correo = userData.Correo,
+                Telefono = userData.Telefono,
+                Cp = userData.Cp,
+                Calle = userData.Calle,
+                NumCalle = userData.NumCalle,
+                Colonia = userData.Colonia,
+                CiudadId = userData.CiudadId
+            };
+
+            return userModel;
+        }
         private User MapUserEntity(UserModel userModel)
         {
             var userEntity = new User
             {
                 Id = userModel.Id,
-                Username = userModel.Username,
-                Password = userModel.Password,
+                Username = userModel.usuario,
+                Password = userModel.contrasenia,
             };
             return userEntity;
         }
@@ -243,8 +332,8 @@ namespace Domain
             var userModel = new UserModel()
             {
                 Id = userEntity.Id,
-                Username = userEntity.Username,
-                Password = userEntity.Password,
+                usuario = userEntity.Username,
+                contrasenia = userEntity.Password,
             };
             return userModel;
         }
@@ -261,4 +350,22 @@ namespace Domain
         #endregion
 
     }
+
+    public class UserData
+    {
+        public int Id { get; set; }
+        public string usuario { get; set; }
+        public string contrasenia { get; set; }
+        public string ApellidoP { get; set; }
+        public string ApellidoM { get; set; }
+        public string Nombres { get; set; }
+        public string Correo { get; set; }
+        public string Telefono { get; set; }
+        public int Cp { get; set; }
+        public string Calle { get; set; }
+        public int NumCalle { get; set; }
+        public string Colonia { get; set; }
+        public int CiudadId { get; set; }
+    }
+
 }

@@ -31,19 +31,15 @@ namespace Presentation.ChildForms
             conectedUser = userModel;//Establecer el usuario conectado.
 
             lblFullname.Text = userModel.FullName;
-            lblUsername.Text = userModel.Username;
-            lblName.Text = userModel.FirstName;
-            lblLastName.Text = userModel.LastName;
-            lblMail.Text = userModel.Email;
-            lblPosition.Text = userModel.Position;
-            if (userModel.Photo != null)//Si el usuario tiene foto, asignar al cuadro de imagen.
-                pictureBoxPhoto.Image = Utils.ItemConverter.BinaryToImage(userModel.Photo);
-            else pictureBoxPhoto.Image = Properties.Resources.DefaultUserProfile;//Si el usuario no tiene foto, mostrar imagen predeterminada de perfil.
+            lblUsername.Text = userModel.usuario;
+            lblName.Text = userModel.Nombres;
+            lblLastName.Text = userModel.ApellidoP;
+            lblMail.Text = userModel.Correo;
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            var verifyForm = new FormVerifyUser(conectedUser.Password);//Control de seguridad, autenticar usuario conectado.
+            var verifyForm = new FormVerifyUser(conectedUser.contrasenia);//Control de seguridad, autenticar usuario conectado.
             DialogResult resultVR = verifyForm.ShowDialog();//Mostrar como ventana de dialogo y establecer el resultado.
 
             if (resultVR == System.Windows.Forms.DialogResult.OK)//Si el resultado de dialogo es OK, mostrar el formulario de actualizar usuario.

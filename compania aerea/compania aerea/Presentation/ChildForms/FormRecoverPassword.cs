@@ -26,19 +26,7 @@ namespace Presentation.ChildForms
         {
             if (string.IsNullOrWhiteSpace(txtUser.Text) == false)
             {
-                var result = new Domain.UserModel().RecoverPassword(txtUser.Text);
-                if (result != null)
-                {
-                    lblMessage.Text = "Hola, " + result.FirstName +
-                       ",\nSe envió la recuperación de contraseña a su correo electrónico: " +
-                       result.Email + "\nSin embargo, le pedimos que cambie su contraseña inmediatamente una vez ingrese a la aplicacíon.";
-                    lblMessage.ForeColor = Color.DimGray;
-                }
-                else
-                {
-                    lblMessage.Text = "Lo sentimos, no tiene una cuenta asociada con el correo electrónico o el nombre de usuario proporcionado.";
-                    lblMessage.ForeColor = Color.IndianRed;
-                }
+                
             }
             else
             {

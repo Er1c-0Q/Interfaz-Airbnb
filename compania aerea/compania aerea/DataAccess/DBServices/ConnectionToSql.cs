@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.DBServices
 {
-    public abstract class ConnectionToSql
+    public class ConnectionToSql
     {
         /// <summary>
         /// Esta clase abstracta es responsable de establecer la cadena de conexion
@@ -24,7 +24,7 @@ namespace DataAccess.DBServices
             connectionString = "Server=.\\LOCALHOST; Database=PROYECTO_FINAL_DB; Integrated Security=true";
             //connectionString = "Server=.\\SQLEXPRESS; Database=PROYECTO_FINAL_DB; Integrated Security=true";
         }
-        protected SqlConnection GetConnection()
+        public SqlConnection GetConnection()
         {
             //Este métedo se encarga de establecer y devolver el objeto de conexión a SQL Server.
             return new SqlConnection(connectionString);

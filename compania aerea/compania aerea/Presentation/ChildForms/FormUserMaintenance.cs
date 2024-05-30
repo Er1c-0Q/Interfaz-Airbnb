@@ -68,30 +68,24 @@ namespace Presentation.ChildForms
         private void FillFields()
         {//Cargar los datos del modelo  en los campos del formulario.
             userId = userModel.Id;
-            txtUsername.Text = userModel.Username;
-            txtPassword.Text = userModel.Password;
-            txtConfirmPass.Text = userModel.Password;
-            txtFirstName.Text = userModel.FirstName;
-            txtLastName.Text = userModel.LastName;
-            cmbPosition.Text = userModel.Position;
-            txtEmail.Text = userModel.Email;
-            if (userModel.Photo != null)
-                PictureBoxPhoto.Image = ItemConverter.BinaryToImage(userModel.Photo);
-            else PictureBoxPhoto.Image = defaultPhoto;
+            txtUsername.Text = userModel.usuario;
+            txtPassword.Text = userModel.contrasenia;
+            txtConfirmPass.Text = userModel.contrasenia;
+            txtFirstName.Text = userModel.Nombres;
+            txtLastName.Text = userModel.ApellidoP;
+            txtEmail.Text = userModel.Correo;
+
         }
         private void FillUserModel()
         {//LLenar modelo
 
             userModel.Id = userId;
-            userModel.Username = txtUsername.Text;
-            userModel.Password = txtPassword.Text;
-            userModel.FirstName = txtFirstName.Text;
-            userModel.LastName = txtLastName.Text;
-            userModel.Position = cmbPosition.Text;
-            userModel.Email = txtEmail.Text;
-            if (PictureBoxPhoto.Image == defaultPhoto)
-                userModel.Photo = null;
-            else userModel.Photo = ItemConverter.ImageToBinary(PictureBoxPhoto.Image);
+            userModel.usuario = txtUsername.Text;
+            userModel.contrasenia = txtPassword.Text;
+            userModel.Nombres = txtFirstName.Text;
+            userModel.ApellidoP = txtLastName.Text;
+            userModel.Correo = txtEmail.Text;
+
 
         }
         private void Save()
