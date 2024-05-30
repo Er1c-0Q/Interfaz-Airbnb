@@ -34,7 +34,6 @@ namespace Presentation.ChildForms
 
         public FormUserMaintenance()
         {//Utilice este constructor cuando desee agregar un nuevo usuario.
-
             InitializeComponent();
             lblCaption.Text = "Agregar nuevo usuario";
             userModel = new UserModel();//Inicializar modelo de dominio de usuario.
