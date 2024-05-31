@@ -21,8 +21,8 @@ namespace DataAccess.DBServices
         {
             //Establecer la cadena de conexión.
             // connectionString = "Server=(local); DataBase= MyCompanyTest; Integrated Security= true";
-            connectionString = "Server=.\\LOCALHOST; Database=PROYECTO_FINAL_DB; Integrated Security=true";
-            //connectionString = "Server=.\\SQLEXPRESS; Database=PROYECTO_FINAL_DB; Integrated Security=true";
+            //connectionString = "Server=.\\LOCALHOST; Database=PROYECTO_FINAL_DB; Integrated Security=true";
+            connectionString = "Server=.\\SQLEXPRESS; Database=PROYECTO_FINAL_DB; Integrated Security=true";
         }
         public SqlConnection GetConnection()
         {

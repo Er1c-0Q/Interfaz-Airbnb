@@ -113,6 +113,16 @@ namespace Presentation.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aire_bnb1 {
+            get {
+                object obj = ResourceManager.GetObject("aire-bnb1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bloquear {
             get {
                 object obj = ResourceManager.GetObject("bloquear", resourceCulture);
@@ -126,6 +136,16 @@ namespace Presentation.Properties {
         internal static System.Drawing.Bitmap bloquear1 {
             get {
                 object obj = ResourceManager.GetObject("bloquear1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Brasil {
+            get {
+                object obj = ResourceManager.GetObject("Brasil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +223,59 @@ namespace Presentation.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Domo {
+            get {
+                object obj = ResourceManager.GetObject("Domo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imgfondo {
             get {
                 object obj = ResourceManager.GetObject("imgfondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgfondo1 {
+            get {
+                object obj = ResourceManager.GetObject("imgfondo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Isla {
+            get {
+                object obj = ResourceManager.GetObject("Isla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap loto {
+            get {
+                object obj = ResourceManager.GetObject("loto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perfil {
+            get {
+                object obj = ResourceManager.GetObject("perfil", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

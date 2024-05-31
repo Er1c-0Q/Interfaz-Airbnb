@@ -97,8 +97,7 @@ namespace Presentation
                 mainForm = new MainForm();
 
                 this.Hide();//Ocultar el formualario login.
-                var welcomeForm = new WelcomeForm(userModel.FullName);//Mostrar el formulario de bienvenida.
-                welcomeForm.ShowDialog();
+                
                 mainForm.FormClosed += new FormClosedEventHandler(MainForm_SessionClosed);//Asociar el evento cerrado, para limpiar el formulario login cuando se cierre sesion desde el formulario principal.
                 mainForm.Show();//Mostrar el formulario principal.
             }
@@ -206,5 +205,14 @@ namespace Presentation
         }
         #endregion
 
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            txtUsername.ForeColor = Color.Black;
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            txtPassword.ForeColor = Color.Black;
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace Presentation.ChildForms
         public FormUsers()
         {
             InitializeComponent();
-            ListUsers();
+            //ListUsers();
         }
 
 
@@ -28,6 +28,7 @@ namespace Presentation.ChildForms
         {//LLenar la cuadricula de datos con la lista de usuarios.
             userList = userModel.GetAllUsers().ToList();//Obtener todos los usuarios.
             dataGridView1.DataSource = userList;//Establecer la fuente de datos.
+            dataGridView1.Visible = true;
         }
 
         private void FormUsers_Load(object sender, EventArgs e)
@@ -37,7 +38,9 @@ namespace Presentation.ChildForms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {//Agregar nuevo usuario.
+            
             var userForm = new FormUserMaintenance();//Instanciar formulario de mantenimiento sin parametros.
+            userForm.TitleBarColor = Color.OrangeRed;
             DialogResult result = userForm.ShowDialog();//Mostrar formulario como ventana de dialogo y guardar resultado.
             if (result == System.Windows.Forms.DialogResult.OK)//Si el resultado de dialogo es OK, actualizar vista de datos.
             {
@@ -93,6 +96,49 @@ namespace Presentation.ChildForms
             }
             else
                 MessageBox.Show("Por favor seleccione una fila", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            
+            if(dataGridView1.Visible == true)
+            {
+                txtiduser.Visible = true;
+                Consultar.Visible = true;
+                labeluser.Visible = true;
+                dataGridView1.Visible = false;
+            }
+            else
+            {
+                txtiduser.Visible = true;
+                Consultar.Visible = true;
+                labeluser.Visible = true;
+                dataGridView1.Visible = false;
+            }
+
+        }
+
+        private void Consultar_Click(object sender, EventArgs e)
+        {
+            ListUsers();
+            txtiduser.Visible = false;
+            Consultar.Visible = false;
+            labeluser.Visible = false;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtiduser_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

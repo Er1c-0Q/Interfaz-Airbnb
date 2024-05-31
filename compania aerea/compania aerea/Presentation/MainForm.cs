@@ -37,7 +37,7 @@ namespace Presentation
 
             dragControl = new DragControl(panelTitleBar, this);
             listChildForms = new List<Form>();
-            linkProfile.Visible = false;
+            //linkProfile.Visible = false;
         }
         public MainForm(UserModel userModel)
         {
@@ -213,7 +213,7 @@ namespace Presentation
             ResetDefaults();
             Security();
             ManagePermissions();
-           panelSideMenu.BackColor = System.Drawing.ColorTranslator.FromHtml("#19222B");
+           //panelSideMenu.BackColor = System.Drawing.ColorTranslator.FromHtml("#19222B");
         }
 
         #region - Cerrar sesión, Cerrar aplicación, minimizar y maximizar.
@@ -267,26 +267,26 @@ namespace Presentation
 
         #region - Contraer o Expandir menú lateral
 
-        private void btnSideMenu_Click(object sender, EventArgs e)
-        {
-            if (panelSideMenu.Width > 100)
-            {
-                panelSideMenu.Width = 52;
-                foreach (Control control in panelMenuHeader.Controls)
-                {
-                    if (control != btnSideMenu)
-                        control.Visible = false;
-                }
-            }
-            else
-            {
-                panelSideMenu.Width = 230;
-                foreach (Control control in panelMenuHeader.Controls)
-                {
-                    control.Visible = true;
-                }
-            }
-        }
+        //private void btnSideMenu_Click(object sender, EventArgs e)
+        //{
+        //    if (panelSideMenu.Width > 100)
+        //    {
+        //        panelSideMenu.Width = 52;
+        //        foreach (Control control in panelMenuHeader.Controls)
+        //        {
+        //            if (control != btnSideMenu)
+        //                control.Visible = false;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        panelSideMenu.Width = 230;
+        //        foreach (Control control in panelMenuHeader.Controls)
+        //        {
+        //            control.Visible = true;
+        //        }
+        //    }
+        //}
         #endregion
 
         #region - Abrir formularios secundarios
@@ -324,10 +324,5 @@ namespace Presentation
         #endregion
 
         #endregion
-
-        private void panelSideMenu_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

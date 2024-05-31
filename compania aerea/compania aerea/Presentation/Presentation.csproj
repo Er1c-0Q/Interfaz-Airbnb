@@ -345,6 +345,13 @@
     <None Include="Resources\bloquear1.png" />
     <None Include="Resources\agregar-usuariog.png" />
     <None Include="Resources\Degradado.jpg" />
+    <None Include="Resources\Brasil.jpg" />
+    <None Include="Resources\Domo.jpg" />
+    <None Include="Resources\imgfondo1.jpg" />
+    <None Include="Resources\Isla.jpg" />
+    <None Include="Resources\aire-bnb1.png" />
+    <None Include="Resources\loto.png" />
+    <None Include="Resources\perfil.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

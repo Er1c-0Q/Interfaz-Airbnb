@@ -38,3 +38,15 @@ C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\DataAc
 C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\Lordv\Downloads\pr\Interfaz-Airbnb\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\Common.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\bin\Debug\Common.pdb
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\USER\source\repos\pene\compania aerea\compania aerea\DataAccess\obj\Debug\DataAccess.pdb

@@ -38,7 +38,7 @@ namespace Presentation.ChildForms
             lblCaption.Text = "Agregar nuevo usuario";
             userModel = new UserModel();//Inicializar modelo de dominio de usuario.
             userModify = false;//Establecer userModify en falso.
-            PictureBoxPhoto.Image = defaultPhoto; //Establecer la foto predeterminada para los usuarios sin foto.
+            //PictureBoxPhoto.Image = defaultPhoto; //Establecer la foto predeterminada para los usuarios sin foto.
             cmbPosition.DataSource = Positions.GetPositions();//Establecer lista de cargos.
             cmbPosition.SelectedIndex = -1;//Sin seleccion de indice.
         }
@@ -46,8 +46,8 @@ namespace Presentation.ChildForms
         {//Utilice este constructor cuando desee editar un usuario o actualizar el perfil de usuario.
 
             InitializeComponent();
-            this.TitleBarColor = Color.MediumSeaGreen;
-            btnSave.BackColor = Color.MediumSeaGreen;
+            this.TitleBarColor = Color.OrangeRed;
+            btnSave.BackColor = Color.OrangeRed;
             cmbPosition.DataSource = Positions.GetPositions();
 
             userModel = _userModel;//Establecer modelo de dominio de usuario.
@@ -164,14 +164,14 @@ namespace Presentation.ChildForms
             openFile.Filter = "Images(.jpg,.png)|*.png;*.jpg";
             if (openFile.ShowDialog() == DialogResult.OK)
             {
-                PictureBoxPhoto.Image = new Bitmap(openFile.FileName);
+                //PictureBoxPhoto.Image = new Bitmap(openFile.FileName);
             }
         }
 
         private void btnDeletePhoto_Click(object sender, EventArgs e)
         {
             //Borrar foto del usuario
-            PictureBoxPhoto.Image = defaultPhoto;
+            //PictureBoxPhoto.Image = defaultPhoto;
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
